@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "brand": "Cerberus Finds",
+    "updatedAt": "2026-07-31",
+    "note": "Fonte única de verdade dos produtos ativos na página. Espelha as colunas: produto | categoria | preço | comissão % | link afiliado | status | data postagem | views | cliques | vendas atribuídas. Campos de performance (views/cliques/vendas) ficam na planilha, não aqui — aqui só o necessário pra renderizar a página."
+  },
+  "categories": [
+    { "id": "all", "label": "Todos" },
+    { "id": "decor", "label": "Objetos" },
+    { "id": "setup", "label": "Setup" },
+    { "id": "acessorios", "label": "Acessórios" }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "title": "Exemplo — Espelho com Touch e LED 3 Cores",
+      "category": "decor",
+      "price": 128.00,
+      "commissionPct": 28,
+      "image": "assets/placeholder.svg",
+      "affiliateUrl": "https://shopee.com.br/SEU-LINK-AQUI",
+      "status": "ativo",
+      "featured": true
+    },
+    {
+      "id": "prod-002",
+      "title": "Exemplo — Cesto Bambu Retangular",
+      "category": "setup",
+      "price": 54.90,
+      "commissionPct": 10,
+      "image": "assets/placeholder.svg",
+      "affiliateUrl": "https://shopee.com.br/SEU-LINK-AQUI-2",
+      "status": "ativo",
+      "featured": false
+    }
+  ]
+}
